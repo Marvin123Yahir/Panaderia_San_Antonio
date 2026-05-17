@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Panadería San Antonio - Productos</title>
+
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_products.css">
+    <link rel="stylesheet" href="css/style_carrito.css">
+
+</head>
+
+<body>
+
+    <!-- Spinner -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+
+        <div class="spinner-grow text-primary" role="status"></div>
+
+    </div>
+
+    <!-- Topbar -->
+    <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+
+            <div class="col-lg-6 px-5 text-start">
+
+                <ol class="breadcrumb mb-0">
+
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="about.html">Nosotros</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="terms.html">Términos</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a class="small text-light" href="privacy.html">Privacidad</a>
+                    </li>
+
+                </ol>
+
+            </div>
+
+            <div class="col-lg-6 px-5 text-end">
+
+                <small>Síguenos:</small>
+
+                <div class="h-100 d-inline-flex align-items-center">
+
+                    <a class="btn-lg-square text-primary border-end rounded-0" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a class="btn-lg-square text-primary pe-0" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
+
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+
+            <h1 class="pan-tit text-primary m-0">
+                Panaderia San Antonio
+            </h1>
+
+        </a>
+
+        <button
+            type="button"
+            class="navbar-toggler me-4"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+            <div class="navbar-nav mx-auto p-4 p-lg-0">
+
+                <a href="index.html" class="nav-item nav-link">
+                    Inicio
+                </a>
+
+                <a href="about.html" class="nav-item nav-link">
+                    Nosotros
+                </a>
+
+                <a href="service.html" class="nav-item nav-link">
+                    Servicios
+                </a>
+
+                <a href="product.html" class="nav-item nav-link active">
+                    Productos
+                </a>
+                <a href="contact.html" class="nav-item nav-link">
+                    Contacto
+                </a>
+
+            </div>
+
+            <div class="d-none d-lg-flex">
+
+                <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                    <i class="fa fa-phone text-primary"></i>
+                </div>
+
+                <div class="ps-3">
+
+                    <small class="text-primary mb-0">
+                        Llámanos
+                    </small>
+
+                    <p class="text-light fs-5 mb-0">
+                        +52 1 228 118 8693
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Header -->
+    <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
+
+        <div class="container text-center pt-5 pb-3">
+
+            <h1 class="display-4 text-white animated slideInDown mb-3">
+                Productos
+            </h1>
+
+            <nav aria-label="breadcrumb">
+
+                <ol class="breadcrumb justify-content-center mb-0">
+
+                    <li class="breadcrumb-item">
+                        <a class="text-white" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="breadcrumb-item">
+                        <a class="text-white" href="#">Páginas</a>
+                    </li>
+
+                    <li class="breadcrumb-item text-primary active">
+                        Productos
+                    </li>
+
+                </ol>
+
+            </nav>
+
+        </div>
+
+    </div>
+    <!-- Productos -->
+    <div class="container-xxl bg-light my-6 py-6 pt-0">
+
+        <div class="container">
+               <!-- Tarjeta de información de contacto mejorada -->
+<div class="bg-primary rounded-4 p-4 p-md-5 wow fadeInUp shadow-lg" data-wow-delay="0.1s">
+    <div class="row g-4 align-items-center">
+        <div class="col-lg-7">
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <div class="bg-white bg-opacity-20 rounded-circle p-2" style="width: 50px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                    <i class="fas fa-crown fa-2x text-warning"></i>
+                </div>
+                <span class="badge bg-warning text-dark px-3 py-2 rounded-pill">Trabajando Desde 2002</span>
+            </div>
+            <h2 class="display-4 text-light mb-3 fw-bold">Panadería San Antonio</h2>
+            <p class="text-light opacity-75 mb-3 fs-5"><strong>La Panadería del Barrio</strong></p>
+            <div class="d-flex flex-wrap gap-3 mt-3">
+                <div class="d-flex align-items-center text-light">
+                    <i class="fas fa-map-marker-alt me-2 text-secondary fs-4"></i>
+                    <span>Ignacio de la llave #17, Barrio San Antonio. Miahuatlán, Veracruz 91410.</span>
+                </div>
+                <div class="d-flex align-items-center text-light">
+                    <i class="fas fa-clock me-2 text-secondary fs-4"></i>
+                    <span>Lun - Sab: 7:00 AM - 10:30 PM</span>
+                    <span>Domingos: 7:00 AM - 11:00 AM</span>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Columna derecha: teléfono destacado -->
+        <div class="col-lg-5 text-lg-end mt-4 mt-lg-0">
+            <div class="d-inline-flex align-items-center text-start bg-opacity-15 rounded-4 p-3 p-xl-4 backdrop-blur" 
+                 style="backdrop-filter: blur(2px); transition: transform 0.3s ease;"
+                 onmouseover="this.style.transform='scale(1.02)'" 
+                 onmouseout="this.style.transform='scale(1)'">
+                <div class="bg-success rounded-circle p-3 me-3 shadow" >
+                    <i class="fa fa-phone-alt fa-2x text-light" ></i>
+                </div>
+                <div>
+                    <p class=" opacity-75 mb-0 small fw-semibold text-uppercase tracking-wide">Atención inmediata</p>
+                    <a href="tel:+5212281188693" class="fs-3 fw-bold text-light text-decoration-none d-block" style="letter-spacing: 1px;">
+                        +52 1 228 118 8693
+                    </a>
+                    <p class="opacity-50 small mb-0 mt-1"><strong>WhatsApp disponible </strong><i class="bi bi-whatsapp fs-5"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Línea decorativa inferior -->
+    <div class="mt-4 pt-2 border-top border-light border-opacity-25 text-center">
+        <div class="d-flex justify-content-center gap-3 small text-light opacity-50">
+            <span>* Pedidos con 24h de anticipación</span>
+            <span>   * Envíos a domicilio</span>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Contact End -->
+
+            <div class="text-center mx-auto mb-5 wow fadeInUp"
+                data-wow-delay="0.1s"
+                style="max-width: 500px;">
+
+                <p class="text-primary text-uppercase mb-2">
+                    Productos
+                </p>
+
+                <h1 class="display-6 mb-4">
+                    Explora nuestras categorías de panadería
+                </h1>
+
+            </div>
+
+            <!-- Catálogo -->
+            <div class="container" style="margin-top: -20px;">
+
+                <div class="container-catalog">
+
+                    <div class="filter-card">
+
+                        <div class="search-wrapper">
+
+                            <div class="search-box">
+
+                                <i class="fas fa-search"></i>
+
+                                <input
+                                    type="text"
+                                    id="searchInput"
+                                    placeholder="Buscar por nombre o descripción...">
+
+                            </div>
+
+                            <button class="reset-btn" id="resetSearchBtn">
+
+                                <i class="fas fa-undo-alt"></i>
+
+                                Limpiar
+
+                            </button>
+
+                        </div>
+
+                        <div class="categories-row" id="categoriesContainer">
+
+                            <div class="cat-pill active" data-cat="todos">
+                                🍞 Todos
+                            </div>
+
+                            <div class="cat-pill" data-cat="pan_dulce">
+                                🥐 Pan Dulce
+                            </div>
+
+                            <div class="cat-pill" data-cat="reposteria">
+                                🎂 Repostería
+                            </div>
+
+                            <div class="cat-pill" data-cat="tortas_tradicionales">
+                                🍞 Tortas Tradicionales
+                            </div>
+
+                            <div class="cat-pill" data-cat="panes_especiales">
+                                🥖 Panes Especiales
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="productsGrid" class="products-grid"></div>
+
+                <div id="productosGrid" class="products-grid"></div>
+
+                <div id="productos" class="productos-grid"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Botón carrito -->
+    <button id="cartFloatBtn" class="btn-carrito">
+
+        <i class="bi bi-cart4"></i>
+
+        <span id="cartFloatBadge" class="cart-badge">
+            0
+        </span>
+
+    </button>
+
+    <!-- Overlay carrito -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <!-- Drawer carrito -->
+    <div class="cart-drawer" id="cartDrawer">
+
+        <div class="cart-header">
+
+            <h3>
+                <i class="bi bi-bag-check"></i>
+                Mi Carrito
+            </h3>
+
+            <button class="close-cart" id="closeCartBtn">
+                <i class="fas fa-times"></i>
+            </button>
+
+        </div>
+
+        <div id="cartItemsList" class="cart-items-list">
+
+            <div class="empty-cart">
+                🛒 Tu carrito está vacío
+                <br>
+                Agrega panes a tu gusto
+            </div>
+
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="total-row">
+
+                <span>Total:</span>
+
+                <span id="cartTotal">
+                    $0
+                </span>
+
+            </div>
+
+            <button id="checkoutBtn" class="checkout-btn">
+
+                <i class="fas fa-credit-card"></i>
+
+                Proceder al pedido
+
+            </button>
+
+            <button
+                id="clearCartDrawerBtn"
+                style="background:none; border:none; color:#b5651e; margin-top:12px; width:100%; cursor:pointer;">
+
+                Vaciar carrito
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn"
+        data-wow-delay="0.1s">
+
+        <div class="container py-5">
+
+            <div class="row g-5">
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4 class="text-light mb-4">
+                        Dirección
+                    </h4>
+
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        Calle Ignacio de la Llave #17, 91410 Miahuatlán, Veracruz
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        +52 279109 3293
+                    </p>
+
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        msalamanca025@gmail.com
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="container-fluid copyright text-light py-4 wow fadeIn"
+        data-wow-delay="0.1s">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+
+                    <a href="#">
+                        Panaderia San Antonio
+                    </a>
+
+                    , Todos los derechos reservados.
+
+                </div>
+
+                <div class="col-md-6 text-center text-md-end">
+
+                    Desarrollado por
+
+                    <a href="404.html">
+                        SOLURAM
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Toast -->
+    <div id="mensaje" class="toast-msg"></div>
+    <div id="alerta" class="custom-alert"></div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/base.js"></script>
+
+</body>
+</html>
